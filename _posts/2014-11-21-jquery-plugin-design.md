@@ -4,6 +4,7 @@ title: jQuery插件开发之extend函数
 category: jQuery
 tags: [jQuery, plugin]
 ---
+{% include JB/setup %}
 
 偶然间看到jQuery插件开发，只看懂了一部分，不过觉得蛮有用的，八个字，“相同‘覆盖’，不同合并”的原理
 ![]({{ site.imgs_url }}jquery-extend.jpg)
