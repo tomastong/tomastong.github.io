@@ -11,8 +11,7 @@
 
 			<div class="bd">
 				<div class="entry-content">
-					{{ content }}
-					<!--<div class="meta">
+					<div class="meta">
 						<p class="date-publish">
 							Published: 
 							<date class="date-pub" title="{{ page.date | date_to_xmlschema }}" datetime="{{ page.date | date_to_xmlschema }}" pubdate>
@@ -31,7 +30,9 @@
 							{% assign tags_list = page.tags %}
 							{% include JB/tags_list %}
 						</ul>
-					</div>--><!-- meta -->
+						<hr />
+					</div><!-- meta -->
+					{{ content }}
 				</div><!-- entry-content -->
 				<div class="misc-content">
 					<div class="social">
