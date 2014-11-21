@@ -107,7 +107,3 @@ $( "input[type='checkbox']" ).check();    // 你可以理解为‘dom对象的�
 
 
 {% endhighlight %}
-
-
-
-
