@@ -11,5 +11,7 @@ tags: [jQuery, plugin]
 把两个或者更多的对象合并到第一个当中，扩展jQuery方法
 
 * jQuery.extend( target, object1, objectN )
-
+{% highlight js %}
+var result=$.extend({},{name:"Tom",age:21},{name:"Jerry",sex:"Boy"})
+{% endhighlight %}
 接收多个对象作为参数，如果只有一个参数，则把这个对象的属性方法附加到jQuery上，如果含有多个参数，则把后面的对象的属性和方法附加到第一个对象上。
