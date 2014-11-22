@@ -3,13 +3,14 @@
 permalink: /archive/:year/:month/:day/:title 
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-highlighter: rouge
+# pygments: true
+markdown: rdiscount
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
 title : Tomastong
-tagline: Tomastong's blog
+tagline: 璀璨人生的原创博客
 author :
   name : tomastong
   email : tomastong.me@gmail.com
@@ -26,6 +27,7 @@ author :
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
 production_url : http://blog.tomastong.com
+imgs_url: /assets/img/
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -100,7 +102,7 @@ JB :
   analytics :
     provider : google 
     google : 
-        tracking_id : 'UA-123-12'
+        tracking_id : 'UA-28838877-1'
     getclicky :
       site_id : 
     mixpanel :
@@ -127,6 +129,4 @@ JB :
   # and include your custom code. Your custom file must be defined at:
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
-markdown: rdiscount
-imgs_url: /assets/img/
-pygments: true
+highlighter: rouge  
