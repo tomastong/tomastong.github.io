@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Js作用域链
+title: Javascript作用域链
 category: js
 tags: [js,闭包]
 ---
