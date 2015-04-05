@@ -1481,3 +1481,7 @@ hr {
   *display: inline;
   float: right;
 }
+/**自定义样式**/
+pre{
+  border-radius: 60px;
+}
