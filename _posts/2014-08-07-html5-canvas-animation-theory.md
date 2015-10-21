@@ -4,14 +4,12 @@ title: HTML5-Canvas动画原理
 category: Web前端
 ---
 
-大二下学期，学校里开设了《软件设计与开发实践I》课程，要求利用所学《数据结构》的知识，独自开发一个应用。我做的是[数据结构的交互式动画](http://jade.freepanda.me/)，在开发过程中，我用JavaScript创建了一个简单的HTML5-Canvas动画库。
+大二下学期，学校里开设了《软件设计与开发实践I》课程，要求利用所学《数据结构》的知识，独自开发一个应用。在开发过程中，我用JavaScript创建了一个简单的HTML5-Canvas动画库。
 
 下面我将利用“矩形”作为一个特例来讲解:
 	
   * JavaScript实现canvas动画的基本原理
   * 如何创建一个简单的动画控制器
-
-此外，我还写了一个此文的[国际版本](http://jade.freepanda.me/bootstrap/)，较本文，其代码和样例比较多，且为英文撰写。
 
 ## 一、在canvas上绘制一个矩形
 
@@ -111,8 +109,6 @@ category: Web前端
 
 根据之前的三步内容，我编写了一个Demo：
 
-<iframe src="http://jade.freepanda.me/bootstrap/demo/4.Where%20is%20my%20red%20rectangle%3F.html" frameborder="0" width="100%" scrolling="no" height="466px"></iframe>
-
 在黄色矩形移动时，红色矩形不见了，问题出在哪呢？回到之前第三步代码的第10行moveShape.draw()，由于重绘canvas时，只调用了黄色矩形的draw()，红色矩形自然就消失了。正确的做法是：在第10行后增加一行代码调用红色矩形的draw()，但是这并不是最好的解决方法。如果canvas上有100个矩形呢？难道要增加100行？比较好的方法是：将画板上的所有图形保存到一个ShapeOnCanvas数组里，把第10行代码替换成：
 
 {% highlight java %}
@@ -207,8 +203,6 @@ category: Web前端
 	cmd("End");
 
 {% endhighlight %}
-
-<iframe src="http://jade.freepanda.me/bootstrap/demo/6.Serial%20Animation.html" frameborder="0" width="100%" scrolling="no" height="466px"></iframe>
 
 解决方案：创建一个cmdQueue队列，按照调用cmd()的顺序，将传入cmd()的参数(一条并行动画命令)入队，启动一个setInterval()，每隔10ms检测一下之前一条并行动画命令是否执行结束，如果结束，则从队列出队下一条动画命令去执行。
 
