@@ -6,8 +6,6 @@ category: "Node"
 tags: [Node]
 ---
 
-{% include JB/setup %}
-
 ## 单线程
 
 我们先来回顾一下进程与线程的相关概念。
