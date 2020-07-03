@@ -34,4 +34,4 @@ category: work
    上海面试流程，难度每面一致<br>
 
 4. 面试中所反映出来的问题<br>
-   见另一篇文章[《面试过程挖掘该如何好好工作》]({{ BASE_PATH }}/work/2020/07/03/2020-07-03-Interview-tells-howtowork)
+   见另一篇文章[《面试过程挖掘该如何好好工作》]({{ BASE_PATH }}/work/2020/07/03/interview-tells-howtowork)
