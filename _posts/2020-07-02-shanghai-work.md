@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 揾工加油-北京vs上海
-category: 工作
+title: 北京vs上海找工作
+category: work
 ---
 
 近期在上海工作，虽说不是很顺利，但过程中的问题有必要记录下~<br>
@@ -34,4 +34,4 @@ category: 工作
    上海面试流程，难度每面一致<br>
 
 4. 面试中所反映出来的问题<br>
-   见另一篇文章[《面试过程挖掘该如何好好工作》]([http://tomastong.github.io/%E5%B7%A5%E4%BD%9C/2020/07/03/Interview-tells-howtowork.html](http://tomastong.github.io/%E5%B7%A5%E4%BD%9C/2019/04/09/as-a-principal.html))
+   见另一篇文章[《面试过程挖掘该如何好好工作》]({{ BASE_PATH }}/work/2020/07/03/2020-07-03-Interview-tells-howtowork)

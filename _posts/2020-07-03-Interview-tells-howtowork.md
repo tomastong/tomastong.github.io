@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 揾工加油-北京vs上海
-category: 工作
+title: 面试过程挖掘该如何好好工作
+category: work
 ---
 
 也许上海面试的都是大公司，面试问题的侧重和北京有所不同，不过也从中揭露出来一些问题~<br>

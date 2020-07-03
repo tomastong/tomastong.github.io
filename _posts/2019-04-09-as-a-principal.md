@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 一次负责人的工作体验
-category: 工作
+category: work
 ---
 
 部门最近承接了一个叫做商家 crm 的项目，领导层相当重视！
